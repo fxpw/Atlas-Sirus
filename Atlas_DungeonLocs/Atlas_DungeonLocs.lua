@@ -124,7 +124,7 @@ local myData = {
 		{ GREY.."2) "..AtlasDLLocale["Azjol-Nerub"]..", ".._RED..AtlasDLLocale["Dragonblight"], ZONE, nil, 65 };
 		{ GREY..INDENT..AtlasDLLocale["Azjol-Nerub: The Upper Kingdom"], ZONE, 3477 };
 		{ GREY..INDENT..AtlasDLLocale["Ahn'kahet: The Old Kingdom"], ZONE, 4494 };
-		{ GREY.."3) "..AtlasDLLocale["The Chamber of Aspects"]..", ".._RED..AtlasDLLocale["Dragonblight"], ZONE, nil, 65 };
+		-- { GREY.."3) "..AtlasDLLocale["The Chamber of Aspects"]..", ".._RED..AtlasDLLocale["Dragonblight"], ZONE, nil, 65 };
 		{ GREY..INDENT..AtlasDLLocale["The Obsidian Sanctum"], ZONE, 4493 };
 		{ GREY..INDENT..AtlasDLLocale["The Ruby Sanctum"], ZONE, 4987 };
 		{ GREY.."4) "..AtlasDLLocale["Naxxramas"]..", ".._RED..AtlasDLLocale["Dragonblight"], ZONE, 3456, 65 };
