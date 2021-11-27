@@ -1766,5 +1766,6 @@ AtlasLocale = {
 	["Burning Time from the Kind of Infinity"] = "Сжигающий время из рода Бесконечности";
 	["GrainOfSandOfLost"] = "Песчинка потерянного времени";
 	["Yellow Dragonflight Chamber"] = "Комната жёлтых драконов";
+	["Towards Murozond"] = "К Мурозонду";
 };
 end 

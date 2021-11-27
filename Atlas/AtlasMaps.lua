@@ -2412,13 +2412,14 @@ AtlasMaps = {
 		Continent = AtlasLocale["Northrend"];
 		{ ORNG..AtlasLocale["AKA"]..": "..AtlasLocale["Yellow Dragonflight Chamber"] };
 		{ BLUE.."A) "..AtlasLocale["Entrance"] };
-		{ RED.."1) "..AtlasLocale["Imporus"], NPC, 50608 };
-		{ RED.."2) "..AtlasLocale["Elonus"], NPC, 50609 };
-		{ RED.."3) "..AtlasLocale["Murozond"], NPC, 50612 };
-		{ GREN..INDENT..AtlasLocale["The Destroyer of Infinity"], NPC, 50602 };
-		{ GREN..INDENT..AtlasLocale["A Temporal Distortor of the Infinity Kind"], NPC, 50600 };
-		{ GREN..INDENT..AtlasLocale["Infinity Guardsman"], NPC, 50603 };
-		{ GREN..INDENT..AtlasLocale["Burning Time from the Kind of Infinity"], NPC, 50601 };		
+		{ BLUE.."B) "..AtlasLocale["Towards Murozond"] };
+		{ GREY.."1) "..AtlasLocale["Imporus"], NPC, 50608 };
+		{ GREY.."2) "..AtlasLocale["Elonus"], NPC, 50609 };
+		{ GREY.."3) "..AtlasLocale["Murozond"], NPC, 50612 };
+		{ GREY..INDENT..AtlasLocale["The Destroyer of Infinity"], NPC, 50602 };
+		{ GREY..INDENT..AtlasLocale["A Temporal Distortor of the Infinity Kind"], NPC, 50600 };
+		{ GREY..INDENT..AtlasLocale["Infinity Guardsman"], NPC, 50603 };
+		{ GREY..INDENT..AtlasLocale["Burning Time from the Kind of Infinity"], NPC, 50601 };		
 		{ GREY.." "..AtlasLocale["GrainOfSandOfLost"]};
 	};
 	
