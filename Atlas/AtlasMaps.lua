@@ -34,6 +34,7 @@ local GREN = "|cff66cc33";
 local _RED = "|cffcc6666";
 local ORNG = "|cffcc9933";
 local PURP = "|cff9900ff";
+local RED = "|cffff0000";
 local INDENT = "      ";
 
 local ZONE = 1;
@@ -2384,6 +2385,7 @@ AtlasMaps = {
 		{ ORNG..AtlasLocale["Reputation"]..": "..AtlasLocale["The Ashen Verdict"], FACTION, 1156 };
 		{ BLUE.."I) "..AtlasLocale["From previous map"] };
 		{ GREY.."13) "..AtlasLocale["The Lich King"], NPC, 36597 };
+		{ GREY.."14) "..AtlasLocale["Lady Jaina Proudmoore"], NPC, 200000 };
 	};
 	RubySanctum = {
 		ZoneName = { AtlasLocale["Chamber of Aspects"]..": "..AtlasLocale["The Ruby Sanctum"], 4987 };
@@ -2400,4 +2402,25 @@ AtlasMaps = {
 		{ GREY.."3) "..AtlasLocale["General Zarithrian"], NPC, 39746 };
 		{ GREY.."4) "..AtlasLocale["Baltharus the Warborn"], NPC, 39751 };		
 	};
+	BronzeSanctuary = {
+		ZoneName = { AtlasLocale["Chamber of Aspects"]..": "..AtlasLocale["The Bronze Sanctuary"], 5684 };
+		Location = { AtlasLocale["Dragonblight"], 65 };
+		LevelRange = "80";
+		MinLevel = "80";
+		PlayerLimit = "25";
+		Acronym = AtlasLocale["BS"];
+		Continent = AtlasLocale["Northrend"];
+		{ ORNG..AtlasLocale["AKA"]..": "..AtlasLocale["Yellow Dragonflight Chamber"] };
+		{ BLUE.."A) "..AtlasLocale["Entrance"] };
+		{ BLUE.."B) "..AtlasLocale["Towards Murozond"] };
+		{ GREY.."1) "..AtlasLocale["Imporus"], NPC, 50608 };
+		{ GREY.."2) "..AtlasLocale["Elonus"], NPC, 50609 };
+		{ GREY.."3) "..AtlasLocale["Murozond"], NPC, 50612 };
+		{ GREY..INDENT..AtlasLocale["The Destroyer of Infinity"], NPC, 50602 };
+		{ GREY..INDENT..AtlasLocale["A Temporal Distortor of the Infinity Kind"], NPC, 50600 };
+		{ GREY..INDENT..AtlasLocale["Infinity Guardsman"], NPC, 50603 };
+		{ GREY..INDENT..AtlasLocale["Burning Time from the Kind of Infinity"], NPC, 50601 };		
+		{ GREY.." "..AtlasLocale["GrainOfSandOfLost"]};
+	};
+	
 };

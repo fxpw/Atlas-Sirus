@@ -293,6 +293,7 @@ AtlasLocale = {
 	["The Obsidian Sanctum"] = "Обсидиановое святилище";
 	["The Oculus"] = "Окулус";
 	["The Ruby Sanctum"] = "Рубиновое святилище";
+	["The Bronze Sanctuary"] = "Бронзовое Святилище";
 	["The Shattered Halls"] = "Разрушенные залы"; ["SH"] = "РЗ";
 	["The Slave Pens"] = "Узилище"; ["SP"] = "Узи";
 	["The Steamvault"] = "Паровое Подземелье"; ["SV"] = "ПП";
@@ -329,6 +330,7 @@ AtlasLocale = {
 	["OS"] = "ОС"; -- Обсидиановое святилище
 	["PoS"] = "Яма"; ["FH2"] = "ЛЗ2"; -- Яма Сарона
 	["RS"] = "PC"; -- Рубиновое святилище
+	["BS"] = "БС"; -- Бронзовое Святилище
 	["Strat, CoT-Strat"] = "Страт, ПВ-Страт"; -- Очищение Стратхольма
 	["TEoE"] = "ОВ"; -- Око Вечности
 	["UK, Keep"] = "УК, Крепость"; -- Крепость Утгард
@@ -1753,6 +1755,17 @@ AtlasLocale = {
 	["Saviana Ragefire"] = "Савиана Огненная Пропасть";
 	["Baltharus the Warborn"] = "Балтар Рожденный в Битве";
 	["General Zarithrian"] = "Генерал Заритриан";
-
+	
+	--The Bronze Sanctuary
+	["Murozond"] = "Мурозонд";
+	["Elonus"] = "Исказитель времени Элонус";
+	["Imporus"] = "Импорус";
+	["The Destroyer of Infinity"] = "Разрушитель из рода Бесконечности";
+	["A Temporal Distortor of the Infinity Kind"] = "Темпоральный исказитель из рода Бесконечности";
+	["Infinity Guardsman"] = "Гвардеец из рода Бесконечности";
+	["Burning Time from the Kind of Infinity"] = "Сжигающий время из рода Бесконечности";
+	["GrainOfSandOfLost"] = "Песчинка потерянного времени";
+	["Yellow Dragonflight Chamber"] = "Комната жёлтых драконов";
+	["Towards Murozond"] = "К Мурозонду";
 };
 end 
