@@ -49,6 +49,7 @@ AtlasBGLocale = {
 	["Start"] = "Начало";
 	["Summon"] = "Призыв";
 	["White"] = "Белый";
+	["Boss"] = "Босс";
 	
 	--Places
 	["Alterac Mountains"] = "Альтеракские горы";
@@ -67,7 +68,14 @@ AtlasBGLocale = {
 	["Outland"] = "Запределье";
 	["Strand of the Ancients"] = "Берег Древних"; ["SotA"] = "Берег";
 	["The Barrens"] = "Степи";
-	["Warsong Gulch"] = "Ущелье Песни Войны"; ["WSG"] = "УПВ";
+	["Warsong Gulch"] = "Ущелье Песни Войны"; ["WSG"] = "УПВ";	
+	["The Temple City of Ala'Washte"] = "Храмовый город Ала'ваште";["TCoA"] = "ХГА";
+	["Twin Peaks"] = "Два Пика";["TP"] = "ДП";
+	["Temple of Kotmogu"] = "Храм Котмогу";["ToK"] = "ХК";
+	["The Battle for Gilneas"] = "Битва за Гилнеас";["BfG"] = "БГ";
+	["Silvershard Mines"] = "Сверкающие копи";["SM"] = "СК";
+	["Slavery Valley"] = "Долина Узников";["SV"] = "ДУ";
+	["Stranglethorn Vale"] = "Тернистая долина";
 	
 	--Alterac Valley (North)
 	["Stormpike Guard"] = "Стража Грозовой Вершины";
@@ -186,7 +194,7 @@ AtlasBGLocale = {
 	["The Refinery"] = "Нефтезавод";
 	["The Docks"] = "Причал";
 	["The Workshop"] = "Мастерская";
-	["The Hangar"] = "Ангар	";
+	["The Hangar"] = "Ангар";
 	["The Quarry"] = "Каменоломня";
 	["Contested Graveyards"] = "Спорные Кладбища";
 	["Horde Graveyard"] = "Кладбище Орды";
@@ -210,7 +218,31 @@ AtlasBGLocale = {
 	["Silverwing Sentinels"] = "Среброкрылые Часовые";
 	["Silverwing Hold"] = "Крепость Среброкрылых";
 	["Warsong Lumber Mill"] = "Лесопилка Песни Войны";
-
+	
+	-- The Temple City of Ala'Washte
+	["Altar of the Sun"] = "Алтарь Солнца";
+	["Water Temple"] = "Храм Воды";
+	["Temple of Fortitude"] = "Храм Стойкости";
+	["Northern Asylum"] = "Северное убежище";
+	["Southern Asylum"] = "Южное убежище";
+	
+	--Twin Peaks
+	["Wildhammer Longhouse"] = "Клан Громового Молота";
+	["Dragonmaw Clan Compound"] = "Клан Драконьей Пасти";
+	--Temple of Kotmogu
+	["Sphere of Power"] = "Сфера могущества";
+	
+	--The Battle for Gilneas	
+	["Lighthouse"] = "Маяк";
+	["Waterworks"] = "Водокачка";
+	["Mines"] = "Рудник";
+	["Horde Landing"] = "Высадка Орды";
+	["Gilnean Stronghold"] = "Гилнеасский лагерь";
+	-- Silvershard Mines
+	["Сart"] = "Тележка";
+	
+	--Slavery Valley
+	["Prison"] = "Тюрьма";
 };
 
 end
