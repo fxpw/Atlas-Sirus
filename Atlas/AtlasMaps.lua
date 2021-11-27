@@ -34,6 +34,7 @@ local GREN = "|cff66cc33";
 local _RED = "|cffcc6666";
 local ORNG = "|cffcc9933";
 local PURP = "|cff9900ff";
+local RED = "|cffff0000";
 local INDENT = "      ";
 
 local ZONE = 1;
@@ -2402,22 +2403,22 @@ AtlasMaps = {
 		{ GREY.."4) "..AtlasLocale["Baltharus the Warborn"], NPC, 39751 };		
 	};
 	BronzeSanctuary = {
-		ZoneName = { AtlasLocale["The Bronze Sanctuary"], 5684 };
+		ZoneName = { AtlasLocale["Chamber of Aspects"]..": "..AtlasLocale["The Bronze Sanctuary"], 5684 };
 		Location = { AtlasLocale["Dragonblight"], 65 };
 		LevelRange = "80";
 		MinLevel = "80";
 		PlayerLimit = "25";
 		Acronym = AtlasLocale["BS"];
 		Continent = AtlasLocale["Northrend"];
-		{ ORNG..AtlasLocale["AKA"]..": "..AtlasLocale["Red Dragonflight Chamber"] };
+		{ ORNG..AtlasLocale["AKA"]..": "..AtlasLocale["Yellow Dragonflight Chamber"] };
 		{ BLUE.."A) "..AtlasLocale["Entrance"] };
-		{ GREY.."1) "..AtlasLocale["Imporus"], NPC, 50608 };
-		{ GREY.."2) "..AtlasLocale["Elonus"], NPC, 50609 };
-		{ GREY.."3) "..AtlasLocale["Murozond"], NPC, 50612 };
-		{ GREY.."4) "..AtlasLocale["The Destroyer of Infinity"], NPC, 50602 };
-		{ GREY.."5) "..AtlasLocale["A Temporal Distortor of the Infinity Kind"], NPC, 50600 };
-		{ GREY.."6) "..AtlasLocale["Infinity Guardsman"], NPC, 50603 };
-		{ GREY.."7) "..AtlasLocale["Burning Time from the Kind of Infinity"], NPC, 50601 };		
+		{ RED.."1) "..AtlasLocale["Imporus"], NPC, 50608 };
+		{ RED.."2) "..AtlasLocale["Elonus"], NPC, 50609 };
+		{ RED.."3) "..AtlasLocale["Murozond"], NPC, 50612 };
+		{ GREN..INDENT..AtlasLocale["The Destroyer of Infinity"], NPC, 50602 };
+		{ GREN..INDENT..AtlasLocale["A Temporal Distortor of the Infinity Kind"], NPC, 50600 };
+		{ GREN..INDENT..AtlasLocale["Infinity Guardsman"], NPC, 50603 };
+		{ GREN..INDENT..AtlasLocale["Burning Time from the Kind of Infinity"], NPC, 50601 };		
 		{ GREY.." "..AtlasLocale["GrainOfSandOfLost"]};
 	};
 	
