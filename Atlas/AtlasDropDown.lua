@@ -27,6 +27,8 @@ Atlas_DropDownLayouts_Order = {
 	[3] = ATLAS_DDL_PARTYSIZE;
 	[4] = ATLAS_DDL_EXPANSION;
 	[5] = ATLAS_DDL_TYPE;
+	---ilvl1
+	[6] = ATLAS_DDL_ILVL;
 	[ATLAS_DDL_CONTINENT] = {
 		[1] = ATLAS_DDL_CONTINENT_EASTERN;
 		[2] = ATLAS_DDL_CONTINENT_KALIMDOR;
@@ -58,6 +60,20 @@ Atlas_DropDownLayouts_Order = {
 		[2] = ATLAS_DDL_TYPE_INSTANCE_DR;
 		[3] = ATLAS_DDL_TYPE_INSTANCE_SZ;
 		[4] = ATLAS_DDL_TYPE_ENTRANCE;
+	};
+	----ilvl2
+	[ATLAS_DDL_ILVL] = {
+		[1] = ATLAS_DDL_TYPE_INSTANCE_PP_187_200;
+		[2] = ATLAS_DDL_TYPE_INSTANCE_RR_200;
+		[3] = ATLAS_DDL_TYPE_INSTANCE_PP_213_226;
+		[4] = ATLAS_DDL_TYPE_INSTANCE_RR_213_226;
+		[5] = ATLAS_DDL_TYPE_INSTANCE_PP_232_239;
+		[6] = ATLAS_DDL_TYPE_INSTANCE_RR_232_245;
+		[7] = ATLAS_DDL_TYPE_INSTANCE_PP_251;
+		[8] = ATLAS_DDL_TYPE_INSTANCE_RR_251_264;
+		[9] = ATLAS_DDL_TYPE_INSTANCE_RR_271_277;
+		[10] = ATLAS_DDL_TYPE_INSTANCE_RR_284_290;
+		[11] = ATLAS_DDL_TYPE_INSTANCE_RR_297_303;
 	};
 };
 
@@ -367,7 +383,7 @@ Atlas_DropDownLayouts = {
 			"TheDeadminesEnt",
 			"TheEyeOfEternity",
 		},
-		[ATLAS_DDL_PARTYSIZE_10_RZ] = {	
+		[ATLAS_DDL_PARTYSIZE_10_RZ] = {
 			"RagefireChasm",
 			"RazorfenDowns",
 			"RazorfenKraul",
@@ -655,6 +671,122 @@ Atlas_DropDownLayouts = {
 			"UldamanEnt",
 			"WailingCavernsEnt",
 			"IcecrownCitadelA",
+		},
+	},
+	---ilvl3
+	[ATLAS_DDL_ILVL] = {
+		[ATLAS_DDL_TYPE_INSTANCE_PP_187_200] ={
+			"AhnKahet",
+			"AzjolNerub",
+			"UlduarHallsofStone",
+			"UlduarHallsofLightning",
+			"DrakTharonKeep",
+			"SunwellPlateau",
+			"Gundrak",
+			"TheNexus",
+			"TheOculus",
+		},
+		[ATLAS_DDL_TYPE_INSTANCE_RR_200] ={
+			"Naxxramas",
+			"ObsidianSanctum",
+
+		},
+		[ATLAS_DDL_TYPE_INSTANCE_PP_213_226] ={
+			"FHHallsOfReflection",
+			"FHTheForgeOfSouls",
+			"FHPitOfSaron",
+			"AuchSethekkHalls",
+			"AuchManaTombs",
+			"AuchAuchenaiCrypts",
+			"HCHellfireRamparts",
+			"HCBloodFurnace",
+			"CFRTheSlavePens",
+			"CFRTheUnderbog",
+			"CoilfangReservoirEnt",
+		},
+		[ATLAS_DDL_TYPE_INSTANCE_RR_213_226] ={
+			"ObsidianSanctum",
+			"Naxxramas",
+			"TheEyeOfEternity",
+			"VaultOfArchavon",
+
+		},
+		[ATLAS_DDL_TYPE_INSTANCE_PP_232_239] ={
+			"FHHallsOfReflection",
+			"FHTheForgeOfSouls",
+			"FHPitOfSaron",
+			"AuchindounEnt",
+			"TempestKeepArcatraz",
+			"TempestKeepMechanar",
+			"TempestKeepBotanica",
+			"HCTheShatteredHalls",
+			"CoilfangReservoirEnt",
+			"CFRTheSteamvault",
+
+		},
+		[ATLAS_DDL_TYPE_INSTANCE_RR_232_245] ={
+			"OnyxiasLair",
+			"VaultOfArchavon",
+			"GruulsLair",
+			"HCMagtheridonsLair",
+			"KarazhanEnd",
+			"KarazhanEnt",
+			"KarazhanStart",
+			"TrialOfTheCrusader",
+		},
+		[ATLAS_DDL_TYPE_INSTANCE_PP_251] ={
+			"CoTOldStratholme",
+
+		},
+		[ATLAS_DDL_TYPE_INSTANCE_RR_251_264] ={
+			"IcecrownCitadelA",
+			"IcecrownCitadelB",
+			"IcecrownCitadelC",
+			"UlduarA",
+			"UlduarB",
+			"UlduarC",
+			"UlduarD",
+			"UlduarE",
+			"RubySanctum",
+			"VaultOfArchavon",
+			"GruulsLair",
+			"HCMagtheridonsLair",
+			"ZulAman",
+			"TrialOfTheCrusader",
+
+		},
+		[ATLAS_DDL_TYPE_INSTANCE_RR_271_277] ={
+			"IcecrownCitadelA",
+			"IcecrownCitadelB",
+			"IcecrownCitadelC",
+			"UlduarA",
+			"UlduarB",
+			"UlduarC",
+			"UlduarD",
+			"UlduarE",
+			"RubySanctum",
+			"VaultOfArchavon",
+			"ZulAman",
+			"TempestKeepTheEye",
+			"CFRSerpentshrineCavern",
+
+		},
+		[ATLAS_DDL_TYPE_INSTANCE_RR_284_290] ={
+			"RubySanctum",
+			"IcecrownCitadelC",
+			"UlduarA",
+			"UlduarB",
+			"UlduarC",
+			"UlduarD",
+			"UlduarE",
+		},
+		[ATLAS_DDL_TYPE_INSTANCE_RR_297_303] ={
+			"BronzeSanctuary",
+			"UlduarA",
+			"UlduarB",
+			"UlduarC",
+			"UlduarD",
+			"UlduarE",
 		},
 	},
 };
