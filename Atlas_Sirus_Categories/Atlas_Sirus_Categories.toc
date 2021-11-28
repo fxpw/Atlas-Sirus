@@ -1,0 +1,14 @@
+﻿## Interface: 30300
+## Title: Atlas |r|cFF0099FF[Sirus_Categories]|r
+## Title-ruRU: Atlas |r|cFF0099FF[Карта Боссов Категорий]|r
+## Notes: Sirus_Categories Maps
+## Notes-ruRU: Карта Боссов Категорий Сирус
+## Version: 1.16.2
+## Author: fxpw mrdan fallafell
+## X-Category: Map
+## RequiredDeps: Atlas
+
+Locale\Atlas_Sirus_Categories-enUS.lua
+Locale\Atlas_Sirus_Categories-ruRU.lua
+
+Atlas_Sirus_Categories.lua
