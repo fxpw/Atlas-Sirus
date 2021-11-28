@@ -295,9 +295,9 @@ function CloneTable(t)				-- return a copy of the table t
 	local new = {};					-- create a new table
 	local i, v = next(t, nil);		-- i is an index of t, v = t[i]
 	while i do
-		if type(v)=="table" then 
+		if type(v)=="table" then
 			v=CloneTable(v);
-		end 
+		end
 		new[i] = v;
 		i, v = next(t, i);			-- get next index
 	end
@@ -313,18 +313,18 @@ function Atlas_RegisterPlugin(name, myCategory, myData)
 	table.insert(ATLAS_PLUGINS, name);
 	local i = getn(Atlas_MapTypes) + 1;
 	Atlas_MapTypes[i] = GREN..myCategory;
-	
+
 	for k,v in pairs(myData) do
 		AtlasMaps[k] = v;
 	end
-	
+
 	table.insert(ATLAS_PLUGIN_DATA, myData);
-	
+
 	if ( ATLAS_OLD_TYPE and ATLAS_OLD_TYPE <= getn(AtlasMaps) ) then
 		AtlasOptions.AtlasType = ATLAS_OLD_TYPE;
 		AtlasOptions.AtlasZone = ATLAS_OLD_ZONE;
 	end
-	
+
 	Atlas_PopulateDropdowns();
 	Atlas_Refresh();
 end
@@ -368,7 +368,7 @@ local function Process_Deprecated()
 		{ "AtlasDungeonLocs", nil }, --old name for dungeon location module
 		{ "AtlasOutdoorRaids", nil }, --old name for outdoor raids module
 		{ "AtlasBattlegrounds", nil }, --old name for battlegrounds module
-		
+
 		--most recent (working) versions of known modules at time of release
 		{ "AtlasWorld", "2.4.3" },
 		{ "AtlasQuest", "4.3.6" }, --updated October 7, 2009
@@ -381,7 +381,7 @@ local function Process_Deprecated()
 	for k,v in pairs(Deprecated_List) do
 		local enabled, loadable = select(4, GetAddOnInfo(v[1]));
 		if enabled and loadable then
-			local oldVersion = true;			
+			local oldVersion = true;
 			if v[2] ~= nil and GetAddOnMetadata(v[1], "Version") >= v[2] then
 				oldVersion = false;
 			end
@@ -419,14 +419,14 @@ function Atlas_OnLoad()
 
 	--Allows Atlas to be closed with the Escape key
 	tinsert(UISpecialFrames, "AtlasFrame");
-	
+
 	--Dragging involves some special registration
 	AtlasFrame:RegisterForDrag("LeftButton");
-	
+
 	--Setting up slash commands involves referencing some strage auto-generated variables
 	SLASH_ATLAS1 = ATLAS_SLASH;
 	SlashCmdList["ATLAS"] = Atlas_SlashCommand;
-	
+
 
 end
 
@@ -438,11 +438,11 @@ local function Atlas_SanitizeName(text)
    text = string.lower(text);
    if (AtlasSortIgnore) then
 	   for _,v in pairs(AtlasSortIgnore) do
-		   local match; 
-           if ( string.gmatch ) then 
+		   local match;
+           if ( string.gmatch ) then
                 match = string.gmatch(text, v)();
-           else 
-                match = string.gfind(text, v)(); 
+           else
+                match = string.gfind(text, v)();
            end
 		   if (match) and ((string.len(text) - string.len(match)) <= 4) then
 			   return match;
@@ -471,7 +471,7 @@ function Atlas_OnEvent()
 	if (event == "ADDON_LOADED" and arg1 == "Atlas") then
 		Atlas_Init();
 	end
-	
+
 end
 
 function Atlas_PopulateDropdowns()
@@ -480,34 +480,34 @@ function Atlas_PopulateDropdowns()
 	local subcatOrder = Atlas_DropDownLayouts_Order[catName];
 	for n = 1, getn(subcatOrder), 1 do
 		local subcatItems = Atlas_DropDownLayouts[catName][subcatOrder[n]];
-		
+
 		ATLAS_DROPDOWNS[n] = {};
-		
+
 		for k,v in pairs(subcatItems) do
 			table.insert(ATLAS_DROPDOWNS[n], v);
 		end
-		
+
 		table.sort(ATLAS_DROPDOWNS[n], Atlas_SortZonesAlpha);
-		
+
 		i = n + 1;
 	end
-	
+
 	if ( ATLAS_PLUGIN_DATA ) then
 		for ka,va in pairs(ATLAS_PLUGIN_DATA) do
-		
+
 			ATLAS_DROPDOWNS[i] = {};
-			
+
 			for kb,vb in pairs(va) do
 				if ( type(vb) == "table" ) then
 					table.insert(ATLAS_DROPDOWNS[i], kb);
 				end
 			end
-			
+
 			table.sort(ATLAS_DROPDOWNS[i], Atlas_SortZonesAlpha);
-			
+
 			i = i + 1;
-			
-		end	
+
+		end
 	end
 end
 
@@ -535,23 +535,23 @@ function Atlas_Init()
 	if ( AtlasOptions == nil ) then
 		Atlas_FreshOptions();
 	end
-	
+
 	--saved options version check
 	if ( AtlasOptions["AtlasVersion"] ~= ATLAS_OLDEST_VERSION_SAME_SETTINGS ) then
 		Atlas_FreshOptions();
 	end
-	
+
 	--populate the dropdown lists...yeeeah this is so much nicer!
 	Atlas_PopulateDropdowns();
-	
-	
+
+
 	if ( ATLAS_DROPDOWNS[AtlasOptions.AtlasType] == nil ) then
 		ATLAS_OLD_TYPE = AtlasOptions.AtlasType;
 		ATLAS_OLD_ZONE = AtlasOptions.AtlasZone;
 		AtlasOptions.AtlasType = 1;
 		AtlasOptions.AtlasZone = 1;
 	end
-	
+
 	--Now that saved variables have been loaded, update everything accordingly
 	Atlas_Refresh();
 	Atlas_UpdateLock();
@@ -559,7 +559,7 @@ function Atlas_Init()
 	AtlasFrame:SetClampedToScreen(AtlasOptions.AtlasClamped);
 	AtlasButton_UpdatePosition();
 	AtlasOptions_Init();
-	
+
 	--Cosmos integration
 	if(EarthFeature_AddButton) then
 		EarthFeature_AddButton(
@@ -582,7 +582,7 @@ function Atlas_Init()
 			Atlas_Toggle
 		);
 	end
-	
+
 	--CTMod integration
 	if(CT_RegisterMod) then
 		CT_RegisterMod(
@@ -596,7 +596,7 @@ function Atlas_Init()
 			Atlas_Toggle
 		);
 	end
-	
+
 	--Make an LDB object
 	LibStub:GetLibrary("LibDataBroker-1.1"):NewDataObject("Atlas", {
 		type = "launcher",
@@ -615,7 +615,7 @@ function Atlas_Init()
 			tooltip:AddLine(ATLAS_LDB_HINT)
 		end,
 	})
-	
+
 end
 
 --Simple function to toggle the Atlas frame's lock status and update it's appearance
@@ -680,7 +680,7 @@ end
 --The zoneID variable represents the internal name used for each map
 --Also responsible for updating all the text when a map is changed
 function Atlas_Refresh()
-	
+
 	local zoneID = ATLAS_DROPDOWNS[AtlasOptions.AtlasType][AtlasOptions.AtlasZone];
 	local data = AtlasMaps;
 	local base = data[zoneID];
@@ -690,7 +690,7 @@ function Atlas_Refresh()
 	AtlasMap:SetHeight(512);
 	AtlasMap:SetPoint("TOPLEFT", "AtlasFrame", "TOPLEFT", 18, -84);
 	local builtIn = AtlasMap:SetTexture("Interface\\AddOns\\Atlas\\Images\\Maps\\"..zoneID);
-	
+
 	if ( not builtIn ) then
 		for k,v in pairs(ATLAS_PLUGINS) do
 			if ( AtlasMap:SetTexture("Interface\\AddOns\\"..v.."\\Images\\"..zoneID) ) then
@@ -698,14 +698,14 @@ function Atlas_Refresh()
 			end
 		end
 	end
-	
+
 	local tName = base.ZoneName[1];
 	if ( AtlasOptions.AtlasAcronyms and base.Acronym ~= nil) then
 		local _RED = "|cffcc6666";
 		tName = tName.._RED.." ["..base.Acronym.."]";
 	end
 	AtlasText_ZoneName_Text:SetText(tName);
-	
+
 	local tLoc = "";
 	local tLR = "";
 	local tML = "";
@@ -729,11 +729,11 @@ function Atlas_Refresh()
 
 	ATLAS_DATA = base;
 	ATLAS_SEARCH_METHOD = data.Search;
-	
+
 	if ( data.Search == nil ) then
 		ATLAS_SEARCH_METHOD = AtlasSimpleSearch;
 	end
-	
+
 	if ( data.Search ~= false ) then
 		AtlasSearchEditBox:Show();
 		AtlasNoSearch:Hide();
@@ -759,14 +759,14 @@ function Atlas_Refresh()
 			end
 		end
 	end
-	
+
 	AtlasScrollBar_Update();
-	
-	
-	
+
+
+
 	--deal with the switch to entrance/instance button here
 	--only display if appropriat
-	
+
 	--see if we should display the button or not, and decide what it should say
 	local matchFound = {nil};
 	local sayEntrance = nil;
@@ -784,7 +784,7 @@ function Atlas_Refresh()
 			end
 		end
 	end
-	
+
 	--set the button's text, populate the dropdown menu, and show or hide the button
 	if ( matchFound[1] ~= nil ) then
 		ATLAS_INST_ENT_DROPDOWN = {};
@@ -802,11 +802,11 @@ function Atlas_Refresh()
 	else
 		AtlasSwitchButton:Hide();
 	end
-	
+
 	if ( TitanPanelButton_UpdateButton ) then
 		TitanPanelButton_UpdateButton("Atlas");
 	end
-	
+
 end
 
 
@@ -815,7 +815,7 @@ end
 --find it, set it, then update menus and the maps
 function AtlasSwitchButton_OnClick()
 	local zoneID = ATLAS_DROPDOWNS[AtlasOptions.AtlasType][AtlasOptions.AtlasZone];
-	
+
 	if ( getn(ATLAS_INST_ENT_DROPDOWN) == 1 ) then
 		--one link, so we can just go there right away
 		AtlasSwitchDD_Set(1);
@@ -883,7 +883,7 @@ function AtlasFrameDropDownType_Initialize()
 		};
 		UIDropDownMenu_AddButton(info);
 	end
-	
+
 end
 
 --Called whenever the map type dropdown menu is shown
@@ -943,7 +943,7 @@ function Atlas_GetFixedZoneText()
 		return AtlasZoneSubstitutions[currentZone];
 	end
 	return currentZone;
-end 
+end
 
 --Checks the player's current location against all Atlas maps
 --If a match is found display that map right away
@@ -953,13 +953,13 @@ function Atlas_AutoSelect()
 	local currentZone = Atlas_GetFixedZoneText();
 	local currentSubZone = GetSubZoneText();
 	debug("Using auto-select to open the best map.");
-	
+
 	if ( Atlas_AssocDefaults[currentZone] ) then
 		debug("You're in a zone where SubZone data is relevant.");
 		if ( Atlas_SubZoneData[currentSubZone] ) then
 			debug("There's data for your current SubZone.");
 			for ka,va in pairs(ATLAS_DROPDOWNS) do
-				for kb,vb in pairs(va) do         
+				for kb,vb in pairs(va) do
 					if ( Atlas_SubZoneData[currentSubZone] == vb ) then
 						AtlasOptions.AtlasType = ka;
 						AtlasOptions.AtlasZone = kb;
@@ -976,7 +976,7 @@ function Atlas_AutoSelect()
 				return;
 			else
 				for ka,va in pairs(ATLAS_DROPDOWNS) do
-					for kb,vb in pairs(va) do         
+					for kb,vb in pairs(va) do
 						if ( Atlas_AssocDefaults[currentZone] == vb ) then
 							AtlasOptions.AtlasType = ka;
 							AtlasOptions.AtlasZone = kb;
@@ -993,7 +993,7 @@ function Atlas_AutoSelect()
 		if ( Atlas_OutdoorZoneToAtlas[currentZone] ) then
 			debug("This world zone is associated with a map.");
 			for ka,va in pairs(ATLAS_DROPDOWNS) do
-				for kb,vb in pairs(va) do         
+				for kb,vb in pairs(va) do
 					if ( Atlas_OutdoorZoneToAtlas[currentZone] == vb ) then
 						AtlasOptions.AtlasType = ka;
 						AtlasOptions.AtlasZone = kb;
@@ -1020,7 +1020,7 @@ function Atlas_AutoSelect()
 		end
 		debug("Searching through all maps for a ZoneName match.");
 		for ka,va in pairs(ATLAS_DROPDOWNS) do
-			for kb,vb in pairs(va) do         
+			for kb,vb in pairs(va) do
 				-- Compare the currentZone to the new substr of ZoneName
 				if ( currentZone == strsub(AtlasMaps[vb].ZoneName[1], strlen(AtlasMaps[vb].ZoneName[1]) - strlen(currentZone) + 1) ) then
 					AtlasOptions.AtlasType = ka;
@@ -1079,7 +1079,7 @@ function AtlasSimpleSearch(data, text)
 	local i;
 	local v;
 	local n;
-	
+
 	local search_text = string.lower(text);
 	search_text = search_text:gsub("([%^%$%(%)%%%.%[%]%+%-%?])", "%%%1");
 	search_text = search_text:gsub("%*", ".*");
@@ -1089,10 +1089,10 @@ function AtlasSimpleSearch(data, text)
 	n = i;
 	while i do
 		if ( type(i) == "number" ) then
-			if ( string.gmatch ) then 
+			if ( string.gmatch ) then
 				match = string.gmatch(string.lower(data[i][1]), search_text)();
-			else 
-				match = string.gfind(string.lower(data[i][1]), search_text)(); 
+			else
+				match = string.gfind(string.lower(data[i][1]), search_text)();
 			end
 			if ( match ) then
 				new[n] = {};

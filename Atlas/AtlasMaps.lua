@@ -56,7 +56,7 @@ AtlasMaps = {
 		Location = { AtlasLocale["Orgrimmar"], 1637 };
 		LevelRange = "12-18";
 		MinLevel = "8";
-		PlayerLimit = "10";
+		PlayerLimit = "5";
 		Continent = AtlasLocale["Kalimdor"];
 		{ BLUE.."A) "..AtlasLocale["Entrance"] };
 		{ GREY.."1) "..AtlasLocale["Maur Grimtotem"], NPC, 11834 };
@@ -72,7 +72,7 @@ AtlasMaps = {
 		Location = { AtlasLocale["The Barrens"], 17 };
 		LevelRange = "16-25";
 		MinLevel = "10";
-		PlayerLimit = "10";
+		PlayerLimit = "5";
 		Continent = AtlasLocale["Kalimdor"];
 		{ BLUE.."A) "..AtlasLocale["Entrance"] };
 		{ GREY.."1) "..AtlasLocale["Disciple of Naralex"], NPC, 3678 };
@@ -93,7 +93,7 @@ AtlasMaps = {
 		Location = { AtlasLocale["Ashenvale"], 331 };
 		LevelRange = "20-28";
 		MinLevel = "19";
-		PlayerLimit = "10";
+		PlayerLimit = "5";
 		Continent = AtlasLocale["Kalimdor"];
 		{ BLUE.."A) "..AtlasLocale["Entrance"] };
 		{ GREY.."1) "..AtlasLocale["Ghamoo-ra"], NPC, 4887 };
@@ -117,7 +117,7 @@ AtlasMaps = {
 		Location = { AtlasLocale["The Barrens"], 17 };
 		LevelRange = "23-33";
 		MinLevel = "17";
-		PlayerLimit = "10";
+		PlayerLimit = "5";
 		Continent = AtlasLocale["Kalimdor"];
 		{ BLUE.."A) "..AtlasLocale["Entrance"] };
 		{ GREY.."1) "..AtlasLocale["Roogug"], NPC, 6168 };
@@ -138,7 +138,7 @@ AtlasMaps = {
 		Location = { AtlasLocale["The Barrens"], 17 };
 		LevelRange = "33-42";
 		MinLevel = "25";
-		PlayerLimit = "10";
+		PlayerLimit = "5";
 		Continent = AtlasLocale["Kalimdor"];
 		{ BLUE.."A) "..AtlasLocale["Entrance"] };
 		{ GREY.."1) "..AtlasLocale["Tuten'kash"], NPC, 7355 };
@@ -157,7 +157,7 @@ AtlasMaps = {
 		Location = { AtlasLocale["Tanaris"], 440 };
 		LevelRange = "42-48";
 		MinLevel = "35";
-		PlayerLimit = "10";
+		PlayerLimit = "5";
 		Continent = AtlasLocale["Kalimdor"];
 		{ BLUE.."A) "..AtlasLocale["Entrance"] };
 		{ GREY.."1) "..AtlasLocale["Antu'sul <Overseer of Sul>"], NPC, 8127 };
@@ -187,7 +187,7 @@ AtlasMaps = {
 		Location = { AtlasLocale["Desolace"], 405 };
 		LevelRange = "42-51";
 		MinLevel = "30";
-		PlayerLimit = "10";
+		PlayerLimit = "5";
 		Continent = AtlasLocale["Kalimdor"];
 		{ BLUE.."A) "..AtlasLocale["Entrance"].." ("..AtlasLocale["Orange"]..")" };
 		{ BLUE.."B) "..AtlasLocale["Entrance"].." ("..AtlasLocale["Purple"]..")" };
@@ -556,7 +556,7 @@ AtlasMaps = {
 		Location = { AtlasLocale["Searing Gorge"].." / "..AtlasLocale["Burning Steppes"], 51, 46 };
 		LevelRange = "54-60";
 		MinLevel = "45";
-		PlayerLimit = "10";
+		PlayerLimit = "5";
 		Continent = AtlasLocale["Eastern Kingdoms"];
 		{ ORNG..AtlasLocale["Key"]..": "..AtlasLocale["Brazier of Invocation"].." ("..AtlasLocale["DS2"]..")", ITEM, 22057 };
 		{ BLUE.."A) "..AtlasLocale["Entrance"] };
@@ -597,7 +597,7 @@ AtlasMaps = {
 		Location = { AtlasLocale["Searing Gorge"].." / "..AtlasLocale["Burning Steppes"], 51, 46 };
 		LevelRange = "56-61";
 		MinLevel = "45";
-		PlayerLimit = "10";
+		PlayerLimit = "5";
 		Continent = AtlasLocale["Eastern Kingdoms"];
 		{ ORNG..AtlasLocale["Key"]..": "..AtlasLocale["Brazier of Invocation"].." ("..AtlasLocale["DS2"]..")", ITEM, 22057 };
 		{ BLUE.."A) "..AtlasLocale["Entrance"] };
@@ -649,7 +649,7 @@ AtlasMaps = {
 		Location = { AtlasLocale["Dun Morogh"], 1 };
 		LevelRange = "24-32";
 		MinLevel = "20";
-		PlayerLimit = "10";
+		PlayerLimit = "5";
 		Continent = AtlasLocale["Eastern Kingdoms"];
 		{ ORNG..AtlasLocale["Key"]..": "..AtlasLocale["Workshop Key"].." ("..AtlasLocale["Back"]..")", ITEM, 6893 };
 		{ BLUE.."A) "..AtlasLocale["Entrance"].." ("..AtlasLocale["Front"]..")" };
@@ -700,7 +700,7 @@ AtlasMaps = {
 		Location = { AtlasLocale["Tirisfal Glades"], 85 };
 		LevelRange = "31-37";
 		MinLevel = "20";
-		PlayerLimit = "10";
+		PlayerLimit = "5";
 		Continent = AtlasLocale["Eastern Kingdoms"];
 		{ BLUE.."A) "..AtlasLocale["Entrance"] };
 		{ GREY.."1) "..AtlasLocale["Houndmaster Loksey"], NPC, 3974 };
@@ -712,7 +712,7 @@ AtlasMaps = {
 		Location = { AtlasLocale["Tirisfal Glades"], 85 };
 		LevelRange = "33-40";
 		MinLevel = "20";
-		PlayerLimit = "10";
+		PlayerLimit = "5";
 		Continent = AtlasLocale["Eastern Kingdoms"];
 		{ ORNG..AtlasLocale["Key"]..": "..AtlasLocale["The Scarlet Key"], ITEM, 7146 };
 		{ BLUE.."A) "..AtlasLocale["Entrance"] };
@@ -724,7 +724,7 @@ AtlasMaps = {
 		Location = { AtlasLocale["Tirisfal Glades"], 85 };
 		LevelRange = "36-42";
 		MinLevel = "20";
-		PlayerLimit = "10";
+		PlayerLimit = "5";
 		Continent = AtlasLocale["Eastern Kingdoms"];
 		{ ORNG..AtlasLocale["Key"]..": "..AtlasLocale["The Scarlet Key"], ITEM, 7146 };
 		{ BLUE.."A) "..AtlasLocale["Entrance"] };
@@ -738,7 +738,7 @@ AtlasMaps = {
 		Location = { AtlasLocale["Tirisfal Glades"], 85 };
 		LevelRange = "28-35";
 		MinLevel = "20";
-		PlayerLimit = "10";
+		PlayerLimit = "5";
 		Continent = AtlasLocale["Eastern Kingdoms"];
 		{ BLUE.."A) "..AtlasLocale["Entrance"] };
 		{ GREY.."1) "..AtlasLocale["Interrogator Vishas"], NPC, 3983 };
@@ -797,7 +797,7 @@ AtlasMaps = {
 		Location = { AtlasLocale["Silverpine Forest"], 130 };
 		LevelRange = "17-25";
 		MinLevel = "10";
-		PlayerLimit = "10";
+		PlayerLimit = "5";
 		Continent = AtlasLocale["Eastern Kingdoms"];
 		{ BLUE.."A) "..AtlasLocale["Entrance"] };
 		{ GREY.."1) "..AtlasLocale["Rethilgore <The Cell Keeper>"], NPC, 3914 };
@@ -882,7 +882,7 @@ AtlasMaps = {
 		Location = { AtlasLocale["Westfall"], 40 };
 		LevelRange = "16-22";
 		MinLevel = "10";
-		PlayerLimit = "10";
+		PlayerLimit = "5";
 		Continent = AtlasLocale["Eastern Kingdoms"];
 		{ BLUE.."A) "..AtlasLocale["Entrance"] };
 		{ BLUE.."B) "..AtlasLocale["Exit"] };
@@ -903,7 +903,7 @@ AtlasMaps = {
 		Location = { AtlasLocale["Stormwind City"], 1519 };
 		LevelRange = "21-27";
 		MinLevel = "15";
-		PlayerLimit = "10";
+		PlayerLimit = "5";
 		Continent = AtlasLocale["Eastern Kingdoms"];
 		{ BLUE.."A) "..AtlasLocale["Entrance"] };
 		{ GREY.."1) "..AtlasLocale["Targorr the Dread"].." ("..AtlasLocale["Varies"]..")", NPC, 1696 };
@@ -919,7 +919,7 @@ AtlasMaps = {
 		Location = { AtlasLocale["Swamp of Sorrows"], 8 };
 		LevelRange = "46-53";
 		MinLevel = "35";
-		PlayerLimit = "10";
+		PlayerLimit = "5";
 		Continent = AtlasLocale["Eastern Kingdoms"];
 		{ ORNG..AtlasLocale["AKA"]..": "..AtlasLocale["The Temple of Atal'Hakkar"] };
 		{ ORNG..AtlasLocale["Key"]..": "..AtlasLocale["Yeh'kinya's Scroll"].." ("..AtlasLocale["Avatar of Hakkar"]..")", ITEM, 10818 };
@@ -953,7 +953,7 @@ AtlasMaps = {
 		Location = { AtlasLocale["Badlands"], 3 };
 		LevelRange = "36-42";
 		MinLevel = "30";
-		PlayerLimit = "10";
+		PlayerLimit = "5";
 		Continent = AtlasLocale["Eastern Kingdoms"];
 		{ ORNG..AtlasLocale["Key"]..": "..AtlasLocale["Staff of Prehistoria"].." ("..AtlasLocale["Ironaya"]..")", ITEM, 7733 };
 		{ BLUE.."A) "..AtlasLocale["Entrance"].." ("..AtlasLocale["Front"]..")" };
