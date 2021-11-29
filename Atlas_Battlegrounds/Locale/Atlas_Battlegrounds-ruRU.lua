@@ -46,6 +46,11 @@ AtlasBGLocale = {
 	["Reputation"] = "Реп";
 	["Rescued"] = "Спасенный";
 	["South"] = "Юг";
+	["West"] = "Запад";
+	["East"] = "Восток";
+	["Southwest"] = "Юго-запад";
+	["Northeast"] = "Северо-восток";
+	["Northwest"] = "Северо-запад";
 	["Start"] = "Начало";
 	["Summon"] = "Призыв";
 	["White"] = "Белый";
@@ -239,10 +244,14 @@ AtlasBGLocale = {
 	["Horde Landing"] = "Высадка Орды";
 	["Gilnean Stronghold"] = "Гилнеасский лагерь";
 	-- Silvershard Mines
-	["Сart"] = "Тележка";
+	["Carriage"] = "Вагонетка";
+	["Сrossroads"] = "Перекресток";
+	["Location of the carriage capture"] = "Место захвата вагонетки";
+	
 	
 	--Slavery Valley
 	["Prison"] = "Тюрьма";
+	["Miniboss"] = "Мини-босс";
 };
 
 end

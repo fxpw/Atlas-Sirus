@@ -253,9 +253,9 @@ local myData = {
 		Continent = "?";
 		{ BLUE.."A) "..AtlasBGLocale["Northern Asylum"].." ("..AtlasBGLocale["Horde"]..")" };
 		{ BLUE.."B) "..AtlasBGLocale["Southern Asylum"].." ("..AtlasBGLocale["Alliance"]..")" };
-		{ GREY.."1) "..AtlasBGLocale["Water Temple"] };
+		{ GREY.."1) "..AtlasBGLocale["Temple of Fortitude"] };
 		{ GREY.."2) "..AtlasBGLocale["Altar of the Sun"] };
-		{ GREY.."3) "..AtlasBGLocale["Temple of Fortitude"] };
+		{ GREY.."3) "..AtlasBGLocale["Water Temple"] };
 		{ ORNG.."X) "..AtlasBGLocale["Flag"].." ("..AtlasBGLocale["Horde"]..")" };
 		{ ORNG.."X) "..AtlasBGLocale["Flag"].." ("..AtlasBGLocale["Alliance"]..")" };
 	};
@@ -265,7 +265,7 @@ local myData = {
 		Location = { AtlasBGLocale["Stranglethorn Vale"], 33 };
 		LevelRange = "10–80";
 		MinLevel = "10";
-		PlayerLimit = "15";
+		PlayerLimit = "10";
 		Continent = "?";
 		{ BLUE.."A) "..AtlasBGLocale["Entrance"].." ("..AtlasBGLocale["Horde"]..")" };
 		{ BLUE.."B) "..AtlasBGLocale["Entrance"].." ("..AtlasBGLocale["Alliance"]..")" };
@@ -284,9 +284,9 @@ local myData = {
 		Continent = "?";
 		{ BLUE.."A) "..AtlasBGLocale["Horde Landing"].." ("..AtlasBGLocale["Horde"]..")" };
 		{ BLUE.."B) "..AtlasBGLocale["Gilnean Stronghold"].." ("..AtlasBGLocale["Alliance"]..")" };
-		{ GREY.."1) "..AtlasBGLocale["Lighthouse"] };
-		{ GREY.."2) "..AtlasBGLocale["Waterworks"] };
-		{ GREY.."3) "..AtlasBGLocale["Mines"] };	
+		{ GREY.."1) "..AtlasBGLocale["Mines"] };
+		{ GREY.."2) "..AtlasBGLocale["Lighthouse"] };
+		{ GREY.."3) "..AtlasBGLocale["Waterworks"] };	
 	};
 	SilvershardMines = {
 		ZoneName = { AtlasBGLocale["Silvershard Mines"], 6126 };
@@ -296,11 +296,18 @@ local myData = {
 		MinLevel = "10";
 		PlayerLimit = "10";
 		Continent = "?";
-		{ BLUE.."A) "..AtlasBGLocale["Entrance"].." ("..AtlasBGLocale["Horde"]..")" };
-		{ BLUE.."B) "..AtlasBGLocale["Entrance"].." ("..AtlasBGLocale["Alliance"]..")" };
-		{ GREY.."1) "..AtlasBGLocale["Сart"] };
-		{ GREY.."2) "..AtlasBGLocale["Сart"] };
-		{ GREY.."3) "..AtlasBGLocale["Сart"] };
+		{ BLUE.."A) "..AtlasBGLocale["Entrance"].." ("..AtlasBGLocale["Alliance"]..")" };
+		{ BLUE.."B) "..AtlasBGLocale["Entrance"].." ("..AtlasBGLocale["Horde"]..")" };
+		{ GREY.."1) "..AtlasBGLocale["Carriage"] };
+		{ GREY.."2) "..AtlasBGLocale["Carriage"] };
+		{ GREY.."3) "..AtlasBGLocale["Carriage"] };
+		{ GREY.."4) "..AtlasBGLocale["Location of the carriage capture"].." ("..AtlasBGLocale["Northwest"]..")" };
+		{ GREY.."5) "..AtlasBGLocale["Location of the carriage capture"].." ("..AtlasBGLocale["Southwest"]..")" };
+		{ GREY.."6) "..AtlasBGLocale["Location of the carriage capture"].." ("..AtlasBGLocale["South"]..")" };
+		{ GREY.."7) "..AtlasBGLocale["Location of the carriage capture"].." ("..AtlasBGLocale["Northeast"]..")" };
+		{ GREY.."8) "..AtlasBGLocale["Сrossroads"].." ("..AtlasBGLocale["West"]..")" };
+		{ GREY.."9) "..AtlasBGLocale["Сrossroads"].." ("..AtlasBGLocale["East"]..")" };
+		
 	};
 	SlaveryValley = {
 		ZoneName = { AtlasBGLocale["Slavery Valley"], 5003 };
@@ -308,7 +315,7 @@ local myData = {
 		--Location = { "?", 210 };
 		LevelRange = "10–80";
 		MinLevel = "10";
-		PlayerLimit = "10";
+		PlayerLimit = "15";
 		Continent = "?";
 		{ BLUE.."A) "..AtlasBGLocale["Entrance"].." ("..AtlasBGLocale["Horde"]..")" };
 		{ BLUE..""..INDENT..AtlasBGLocale["Boss"].." ("..AtlasBGLocale["Horde"]..")" };
@@ -316,7 +323,8 @@ local myData = {
 		{ BLUE..""..INDENT..AtlasBGLocale["Boss"].." ("..AtlasBGLocale["Horde"]..")" };
 		{ GREY.."1) "..AtlasBGLocale["Mines"] };
 		{ GREY.."2) "..AtlasBGLocale["Prison"] };
-		{ GREY.."3) "..AtlasBGLocale["Graveyard"] };
+		{ GREY.."3) "..AtlasBGLocale["Miniboss"] };
+		{ GREY.."4) "..AtlasBGLocale["Graveyard"] };
 	};	
 	TwinPeaks = {
 		ZoneName = { AtlasBGLocale["Twin Peaks"], 5031 };
@@ -326,10 +334,10 @@ local myData = {
 		MinLevel = "10";
 		PlayerLimit = "10";
 		Continent = "?";
-		{ BLUE.."A) "..AtlasBGLocale["Dragonmaw Clan Compound"].." ("..AtlasBGLocale["Horde"]..")" };
-		{ BLUE.."B) "..AtlasBGLocale["Wildhammer Longhouse"].." ("..AtlasBGLocale["Alliance"]..")" };
-		{ GREY.."3) "..AtlasBGLocale["Alliance Graveyard"] };	
-		{ GREY.."4) "..AtlasBGLocale["Horde Graveyard"] };
+		{ BLUE.."A) "..AtlasBGLocale["Wildhammer Longhouse"].." ("..AtlasBGLocale["Alliance"]..")" };
+		{ BLUE.."B) "..AtlasBGLocale["Dragonmaw Clan Compound"].." ("..AtlasBGLocale["Horde"]..")" };
+		{ _RED.."X "..AtlasBGLocale["Alliance Graveyard"] };	
+		{ _RED.."X "..AtlasBGLocale["Horde Graveyard"] };
 	};
 };
 
