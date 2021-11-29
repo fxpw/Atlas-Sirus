@@ -120,6 +120,15 @@ local myData = {
 		{ GREN..INDENT..AtlasORLocale["Karrog"].." ("..AtlasORLocale["Summon"]..")", NPC, 23165 };
 		{ GREN..INDENT..AtlasORLocale["Vakkiz the Windrager"].." ("..AtlasORLocale["Summon"]..")", NPC, 23162 };
 	};
+
+	Norigorn = {
+		ZoneName = { AtlasORLocale["PowerRanger"] };
+		Location = { AtlasORLocale["TolGorod"], ZONE, 3519 };
+		LevelRange = "80+";
+		MinLevel = "--";
+		PlayerLimit = "40";
+		{ GREY.."A "..AtlasORLocale["Norigorn"] , NPC, 23038 };
+	};
 };
 
 Atlas_RegisterPlugin("Atlas_OutdoorRaids", myCategory, myData);

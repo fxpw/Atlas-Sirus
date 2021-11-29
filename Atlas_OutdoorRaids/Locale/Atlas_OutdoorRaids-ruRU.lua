@@ -96,5 +96,9 @@ AtlasORLocale = {
 	["Various"] = "Различное";
 	["Ysondre"] = "Исондра";
 
+	["PowerRanger"] = "Страж силовых линий Тол'Гарода",
+	["TolGorod"] = "Тол'Гарод",
+	["Norigorn"] = "Норигорн",
+
 };
 end

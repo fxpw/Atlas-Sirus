@@ -12,9 +12,9 @@
 ## Notes-koKR: 야외 레이드
 ## Notes-zhCN: 户外首领分布图
 ## Notes-zhTW: Atlas 戶外首領地圖模組
-## Version: 1.16.1
+## Version: 1.16.2
 ## X-Date: June, 2010
-## Author: Dan Gilbert
+## Author: Dan Gilbert, fix for sirus (fxpw, Mr_dan, Fallafall)
 ## X-Email: dan.b.gilbert@gmail.com
 ## X-Website: http://www.atlasmod.com
 ## X-Category: Map
