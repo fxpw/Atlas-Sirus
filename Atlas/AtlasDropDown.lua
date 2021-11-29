@@ -80,12 +80,18 @@ Atlas_DropDownLayouts = {
 			"CFRTheSlavePens",
 			"CFRTheUnderbog",
 			"CoilfangReservoirEnt",
+			
 		},
 		[ATLAS_DDL_TYPE_INSTANCE_RR_213_226] ={
 			"ObsidianSanctum",
 			"Naxxramas",
 			"TheEyeOfEternity",
 			"VaultOfArchavon",
+			"UlduarA",
+			"UlduarB",
+			"UlduarC",
+			"UlduarD",
+			"UlduarE",
 
 		},
 		[ATLAS_DDL_TYPE_INSTANCE_PP_232_239] ={
@@ -110,6 +116,11 @@ Atlas_DropDownLayouts = {
 			"KarazhanEnt",
 			"KarazhanStart",
 			"TrialOfTheCrusader",
+			"UlduarA",
+			"UlduarB",
+			"UlduarC",
+			"UlduarD",
+			"UlduarE",
 		},
 		[ATLAS_DDL_TYPE_INSTANCE_PP_251] ={
 			"CoTOldStratholme",
@@ -122,11 +133,7 @@ Atlas_DropDownLayouts = {
 			"IcecrownCitadelA",
 			"IcecrownCitadelB",
 			"IcecrownCitadelC",
-			"UlduarA",
-			"UlduarB",
-			"UlduarC",
-			"UlduarD",
-			"UlduarE",
+			
 			"RubySanctum",
 			"VaultOfArchavon",
 			"GruulsLair",
