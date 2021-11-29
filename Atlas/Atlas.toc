@@ -10,7 +10,7 @@
 ## Notes-ruRU: Обозреватель подземелий
 ## Version: 1.16.2
 ## X-Date: June, 2010
-## Author: Dan Gilbert, Adaptation for sirus- Mr-Dan, fxpw, fallafell
+## Author: Dan Gilbert, Adaptation for sirus- Днюша, fxpw, fallafell
 ## Updater: Lothaer
 ## X-Email: dan.b.gilbert@gmail.com
 ## X-Website: http://www.atlasmod.com
