@@ -27,7 +27,7 @@ AtlasCategLocale = {
 	["FourCategloca"] = "нагорье Арати",
 	["ThirdCategloca"] = "Зимние Ключи",
 	["TwoCategloca"] = "Полуостров Адского Пламени",
-	["FirstCategloca"] = "Где то где я не знаю",
+	["FirstCategloca"] = "Награнд",
 
 
 };

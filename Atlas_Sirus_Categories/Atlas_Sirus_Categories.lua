@@ -33,42 +33,42 @@ local myData = {
 	SixCateg = {
 		ZoneName = { AtlasCategLocale["SixCategt"] };
 		Location = { AtlasCategLocale["SixCategloca"], 1637 };
-		PlayerLimit = "1";
+		PlayerLimit = "5";
 		{ _RED.."A) "..AtlasCategLocale["BossSix"], NPC, 900002 };
 
 	},
 	FiveCateg = {
 		ZoneName = { AtlasCategLocale["FiveCategt"] };
 		Location = { AtlasCategLocale["FiveCategloca"], 1637 };
-		PlayerLimit = "5-10";
+		PlayerLimit = "40";
 		{ _RED.."A) "..AtlasCategLocale["BossFive"], NPC, 125030  };
 
 	},
 	FourCateg = {
 		ZoneName = { AtlasCategLocale["FourCategt"] };
 		Location = { AtlasCategLocale["FourCategloca"], 1637 };
-		PlayerLimit = "5-10";
+		PlayerLimit = "40";
 		{ _RED.."A) "..AtlasCategLocale["BossFour"], NPC, 125033  };
 
 	},
 	ThirdCateg = {
 		ZoneName = { AtlasCategLocale["ThirdCategt"] };
 		Location = { AtlasCategLocale["ThirdCategloca"], 1637 };
-		PlayerLimit = "10-20";
+		PlayerLimit = "40";
 		{ _RED.."A) "..AtlasCategLocale["BossThird"], NPC, 70011  };
 
 	},
 	TwoCateg = {
 		ZoneName = { AtlasCategLocale["TwoCategt"] };
 		Location = { AtlasCategLocale["TwoCategloca"], 1637 };
-		PlayerLimit = "10-20";
+		PlayerLimit = "40";
 		{ _RED.."A) "..AtlasCategLocale["BossTwo"] , NPC, 59900 };
 
 	},
 	FirstCateg = {
 		ZoneName = { AtlasCategLocale["FirstCategt"] };
 		Location = { AtlasCategLocale["FirstCategloca"], 1637 };
-		PlayerLimit = "10-25";
+		PlayerLimit = "40";
 		{ _RED.."A) "..AtlasCategLocale["BossFirst"], NPC, 90001  };
 
 	},
