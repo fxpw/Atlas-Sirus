@@ -26,17 +26,19 @@ Atlas_DropDownLayouts_Order = {
 	[2] = ATLAS_DDL_CONTINENT;
 
 	[ATLAS_DDL_ILVL] = {
-		[1] = ATLAS_DDL_TYPE_INSTANCE_PP_187_200;
-		[2] = ATLAS_DDL_TYPE_INSTANCE_RR_200;
-		[3] = ATLAS_DDL_TYPE_INSTANCE_PP_213_226;
-		[4] = ATLAS_DDL_TYPE_INSTANCE_RR_213_226;
-		[5] = ATLAS_DDL_TYPE_INSTANCE_PP_232_239;
-		[6] = ATLAS_DDL_TYPE_INSTANCE_RR_232_245;
-		[7] = ATLAS_DDL_TYPE_INSTANCE_PP_251;
-		[8] = ATLAS_DDL_TYPE_INSTANCE_RR_251_264;
-		[9] = ATLAS_DDL_TYPE_INSTANCE_RR_271_277;
-		[10] = ATLAS_DDL_TYPE_INSTANCE_RR_284_290;
-		[11] = ATLAS_DDL_TYPE_INSTANCE_RR_297_303;
+		[1] = ATLAS_DDL_CONTINENT_CLASSIC;
+		[2] = ATLAS_DDL_CONTINENT_CLASSIC_R;
+		[3] = ATLAS_DDL_TYPE_INSTANCE_PP_187_200;
+		[4] = ATLAS_DDL_TYPE_INSTANCE_RR_200;
+		[5] = ATLAS_DDL_TYPE_INSTANCE_PP_213_226;
+		[6] = ATLAS_DDL_TYPE_INSTANCE_RR_213_226;
+		[7] = ATLAS_DDL_TYPE_INSTANCE_PP_232_239;
+		[8] = ATLAS_DDL_TYPE_INSTANCE_RR_232_245;
+		[9] = ATLAS_DDL_TYPE_INSTANCE_PP_251;
+		[10] = ATLAS_DDL_TYPE_INSTANCE_RR_251_264;
+		[11] = ATLAS_DDL_TYPE_INSTANCE_RR_271_277;
+		[12] = ATLAS_DDL_TYPE_INSTANCE_RR_284_290;
+		[13] = ATLAS_DDL_TYPE_INSTANCE_RR_297_303;
 	};
 
 	[ATLAS_DDL_CONTINENT] = {
@@ -52,6 +54,66 @@ Atlas_DropDownLayouts_Order = {
 
 Atlas_DropDownLayouts = {
 	[ATLAS_DDL_ILVL] = {
+		[ATLAS_DDL_CONTINENT_CLASSIC] = {
+			"BlackrockSpireEnt",
+			"BlackrockSpireLower",
+			"BlackrockSpireUpper",
+			"BlackwingLair",
+			"Gnomeregan",
+			"GnomereganEnt",
+
+			"MagistersTerrace",
+
+			"Scholomance",
+			"ShadowfangKeep",
+			"SMArmory",
+			"SMCathedral",
+			"SMEnt",
+			"SMGraveyard",
+			"SMLibrary",
+			"Stratholme",
+
+			"TheDeadmines",
+			"TheDeadminesEnt",
+			"TheStockade",
+			"TheSunkenTemple",
+			"TheSunkenTempleEnt",
+
+			"BlackfathomDeeps",
+			"BlackfathomDeepsEnt",
+
+			"CoTEnt",
+			"CoTOldHillsbrad",
+
+			"DireMaulEast",
+			"DireMaulEnt",
+			"DireMaulNorth",
+			"DireMaulWest",
+			"Maraudon",
+			"MaraudonEnt",
+
+			"RagefireChasm",
+			"RazorfenDowns",
+			"RazorfenKraul",
+
+			"WailingCaverns",
+			"WailingCavernsEnt",
+			"ZulFarrak",
+
+			"Uldaman",
+
+		},
+		[ATLAS_DDL_CONTINENT_CLASSIC_R] = {
+			"MoltenCore",
+			"SunwellPlateau",
+			"ZulGurub",
+
+			"UldamanEnt",
+			"BlackrockDepths",
+
+			"TheRuinsofAhnQiraj",
+			"TheTempleofAhnQiraj",
+		},
 		[ATLAS_DDL_TYPE_INSTANCE_PP_187_200] ={
 			"AhnKahet",
 			"AzjolNerub",
