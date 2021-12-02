@@ -369,7 +369,9 @@ local function Process_Deprecated()
 		{ "AtlasOutdoorRaids", nil }, --old name for outdoor raids module
 		{ "AtlasBattlegrounds", nil }, --old name for battlegrounds module
 
-		{ "Atlas_Sirus_Categories.", nil },
+		{ "Atlas_Sirus_Categories", "1.16.2" },
+
+		{ "Atlas_Sirus_Cartel", "1.16.2"},
 
 		--most recent (working) versions of known modules at time of release
 		{ "AtlasWorld", "2.4.3" },
