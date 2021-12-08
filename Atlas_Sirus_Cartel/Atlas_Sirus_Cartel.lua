@@ -153,6 +153,42 @@ local myData = {
 		Location = { AtlasCategLocale["loc27_loc"], 1637 };
 		{ _RED.."A) "..AtlasCategLocale["Cartel_pos"], NPC, 900002 };
 	},
+	loc28 = {
+		ZoneName = { AtlasCategLocale["Ожидаем большие поставки рыбы от нашего специалиста в Ревущем Фьорде."]};
+		Location = { AtlasCategLocale["loc28_loc"], 1637 };
+		{ _RED.."A) "..AtlasCategLocale["Cartel_pos"], NPC, 900002 };
+
+	},
+	loc29 = {
+		ZoneName = { AtlasCategLocale["Натолкнулись на легендарного охотника на зверей, пообщались, пока торгуем."]};
+		Location = { AtlasCategLocale["loc29_loc"], 1637 };
+		{ _RED.."A) "..AtlasCategLocale["Cartel_pos"], NPC, 900002 };
+
+	},
+	loc30 = {
+		ZoneName = { AtlasCategLocale["Купили у земельников информацию по подходам к Ульдуару, заключили контракт с наёмниками."]};
+		Location = { AtlasCategLocale["loc30_loc"], 1637 };
+		{ _RED.."A) "..AtlasCategLocale["Cartel_pos"], NPC, 900002 };
+
+	},
+	loc31 = {
+		ZoneName = { AtlasCategLocale["Клан Троллей с черезвычайно остроумным названием Дробители черепов стал нашим очередным клиентом-аборигеном."]};
+		Location = { AtlasCategLocale["loc31_loc"], 1637 };
+		{ _RED.."A) "..AtlasCategLocale["Cartel_pos"], NPC, 900002 };
+
+	},
+	loc32 = {
+		ZoneName = { AtlasCategLocale["Путешествовали через Фералас, немного сбились с маршрута - но нашли необычное место для остановки."]};
+		Location = { AtlasCategLocale["loc32_loc"], 1637 };
+		{ _RED.."A) "..AtlasCategLocale["Cartel_pos"], NPC, 900002 };
+
+	},
+	loc33 = {
+		ZoneName = { AtlasCategLocale["На сегодня у нас запланирована встреча с Синдикатом."]};
+		Location = { AtlasCategLocale["loc33_loc"], 1637 };
+		{ _RED.."A) "..AtlasCategLocale["Cartel_pos"], NPC, 900002 };
+
+	},
 };
 
 Atlas_RegisterPlugin("Atlas_Sirus_Cartel", myCategory, myData);
