@@ -58,11 +58,9 @@ Atlas_DropDownLayouts = {
 			"BlackrockSpireEnt",
 			"BlackrockSpireLower",
 			"BlackrockSpireUpper",
-			"BlackwingLair",
+
 			"Gnomeregan",
 			"GnomereganEnt",
-
-			"MagistersTerrace",
 
 			"Scholomance",
 			"ShadowfangKeep",
@@ -101,7 +99,6 @@ Atlas_DropDownLayouts = {
 			"ZulFarrak",
 
 			"Uldaman",
-
 		},
 		[ATLAS_DDL_CONTINENT_CLASSIC_R] = {
 			"MoltenCore",
@@ -113,6 +110,9 @@ Atlas_DropDownLayouts = {
 
 			"TheRuinsofAhnQiraj",
 			"TheTempleofAhnQiraj",
+
+			"BlackrockSpireEnt",
+			"BlackwingLair",
 		},
 		[ATLAS_DDL_TYPE_INSTANCE_PP_187_200] ={
 			"AhnKahet",
@@ -124,6 +124,13 @@ Atlas_DropDownLayouts = {
 			"Gundrak",
 			"TheNexus",
 			"TheOculus",
+
+			"UtgardeKeep",
+			"UtgardePinnacle",
+
+			"TrialOfTheChampion",
+
+			"VioletHold",
 		},
 		[ATLAS_DDL_TYPE_INSTANCE_RR_200] ={
 			"Naxxramas",
@@ -142,7 +149,7 @@ Atlas_DropDownLayouts = {
 			"CFRTheSlavePens",
 			"CFRTheUnderbog",
 			"CoilfangReservoirEnt",
-			
+
 		},
 		[ATLAS_DDL_TYPE_INSTANCE_RR_213_226] ={
 			"ObsidianSanctum",
@@ -189,13 +196,15 @@ Atlas_DropDownLayouts = {
 			"CoTBlackMorass",
 			"CoTEnt",
 
+			"MagistersTerrace",
+
 
 		},
 		[ATLAS_DDL_TYPE_INSTANCE_RR_251_264] ={
 			"IcecrownCitadelA",
 			"IcecrownCitadelB",
 			"IcecrownCitadelC",
-			
+
 			"RubySanctum",
 			"VaultOfArchavon",
 			"GruulsLair",
