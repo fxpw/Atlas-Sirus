@@ -189,6 +189,107 @@ local myData = {
 		{ _RED.."A) "..AtlasCategLocale["Cartel_pos"], NPC, 900002 };
 
 	},
+	loc34 = {
+		ZoneName = { AtlasCategLocale["Не поверишь, но Пустоши Калимдора носят своё название не просто так."]};
+		Location = { AtlasCategLocale["loc34_loc"], 1637 };
+		{ _RED.."A) "..AtlasCategLocale["Cartel_pos"], NPC, 900002 };
+
+	},
+	loc35 = {
+		ZoneName = { AtlasCategLocale["Ревущий Фьорд, стоянка пиратов. Помимо грабежа, они также зарабатывают ценной контрабандой - а значит, время торговли."]};
+		Location = { AtlasCategLocale["loc35_loc"], 1637 };
+		{ _RED.."A) "..AtlasCategLocale["Cartel_pos"], NPC, 900002 };
+
+	},
+	loc36 = {
+		ZoneName = { AtlasCategLocale["В военном лагере в Выжженных землях ситуация довольно напряжённая, редко Орда и Альянс готовы к переговорам."]};
+		Location = { AtlasCategLocale["loc36_loc"], 1637 };
+		{ _RED.."A) "..AtlasCategLocale["Cartel_pos"], NPC, 900002 };
+
+	},
+	loc37 = {
+		ZoneName = { AtlasCategLocale["Сегодня ведём торговлю с некромантами где то на границе Зул Драка и Драконьего Погоста, там и ищи."]};
+		Location = { AtlasCategLocale["loc37_loc"], 1637 };
+		{ _RED.."A) "..AtlasCategLocale["Cartel_pos"], NPC, 900002 };
+
+	},
+	loc38 = {
+		ZoneName = { AtlasCategLocale["Сегодня ведём дела в гоблинском посёлке, в Степях."]};
+		Location = { AtlasCategLocale["loc38_loc"], 1637 };
+		{ _RED.."A) "..AtlasCategLocale["Cartel_pos"], NPC, 900002 };
+
+	},
+	loc39 = {
+		ZoneName = { AtlasCategLocale["Пока вооружившиеся до зубов воины Орды и Альянса что-то делят на Полуострове Адского Пламени"]};
+		Location = { AtlasCategLocale["loc39_loc"], 1637 };
+		{ _RED.."A) "..AtlasCategLocale["Cartel_pos"], NPC, 900002 };
+
+	},
+	loc40 = {
+		ZoneName = { AtlasCategLocale["В Седых Холмах нашли одну любопытную деревушку, людскую."]};
+		Location = { AtlasCategLocale["loc40_loc"], 1637 };
+		{ _RED.."A) "..AtlasCategLocale["Cartel_pos"], NPC, 900002 };
+
+	},
+	loc41 = {
+		ZoneName = { AtlasCategLocale["Представляешь, подруга, не все тролли в Зул Драке - безумные пожиратели лоа или нежить."]};
+		Location = { AtlasCategLocale["loc41_loc"], 1637 };
+		{ _RED.."A) "..AtlasCategLocale["Cartel_pos"], NPC, 900002 };
+
+	},
+	loc42 = {
+		ZoneName = { AtlasCategLocale["Один из наших нашёл приют у эльфийки из экпедиции Кенария."]};
+		Location = { AtlasCategLocale["loc42_loc"], 1637 };
+		{ _RED.."A) "..AtlasCategLocale["Cartel_pos"], NPC, 900002 };
+
+	},
+	-----
+	-----
+	-----
+	-----
+	-----
+	-----
+	-----
+	-----
+	-----
+	-----
+
+	loc44 = {
+		ZoneName = { AtlasCategLocale["На пересечении торговых путей дела всегда идут хорошо, большой поток потенциальных покупателей!"]};
+		Location = { AtlasCategLocale["loc44_loc"], 1637 };
+		{ _RED.."A) "..AtlasCategLocale["Cartel_pos"], NPC, 900002 };
+
+	},
+	loc45 = {
+		ZoneName = { AtlasCategLocale["Завела нас дорога в Серебрянный Бор."]};
+		Location = { AtlasCategLocale["loc45_loc"], 1637 };
+		{ _RED.."A) "..AtlasCategLocale["Cartel_pos"], NPC, 900002 };
+
+	},
+	loc46 = {
+		ZoneName = { AtlasCategLocale["Алдоры в Долине Призрачной Луны довольно серьёзный, суровый и деловой народ"]};
+		Location = { AtlasCategLocale["loc46_loc"], 1637 };
+		{ _RED.."A) "..AtlasCategLocale["Cartel_pos"], NPC, 900002 };
+
+	},
+	loc47 = {
+		ZoneName = { AtlasCategLocale["Столковались с земельниками, что обитают в Грозовой Гряде, в укромном приюте среди заснеженных склонов."]};
+		Location = { AtlasCategLocale["loc47_loc"], 1637 };
+		{ _RED.."A) "..AtlasCategLocale["Cartel_pos"], NPC, 900002 };
+
+	},
+	loc48 = {
+		ZoneName = { AtlasCategLocale["Природа Зангартопи удивительная и пугающая."]};
+		Location = { AtlasCategLocale["loc48_loc"], 1637 };
+		{ _RED.."A) "..AtlasCategLocale["Cartel_pos"], NPC, 900002 };
+
+	},
+	loc49 = {
+		ZoneName = { AtlasCategLocale["ППриятно порой вернуться в знакомую, спокойную гавань."]};
+		Location = { AtlasCategLocale["loc49_loc"], 1637 };
+		{ _RED.."A) "..AtlasCategLocale["Cartel_pos"], NPC, 900002 };
+
+	},
 };
 
 Atlas_RegisterPlugin("Atlas_Sirus_Cartel", myCategory, myData);
