@@ -243,17 +243,12 @@ local myData = {
 		{ _RED.."A) "..AtlasCategLocale["Cartel_pos"], NPC, 900002 };
 
 	},
-	-----
-	-----
-	-----
-	-----
-	-----
-	-----
-	-----
-	-----
-	-----
-	-----
+	loc43 = {
+		ZoneName = { AtlasCategLocale["Возобновили наш контракт с Алым Орденом, вернее, его остатками - на этот раз, в Драконьем Погосте."]};
+		Location = { AtlasCategLocale["loc43_loc"], 1637 };
+		{ _RED.."A) "..AtlasCategLocale["Cartel_pos"], NPC, 900002 };
 
+	},
 	loc44 = {
 		ZoneName = { AtlasCategLocale["На пересечении торговых путей дела всегда идут хорошо, большой поток потенциальных покупателей!"]};
 		Location = { AtlasCategLocale["loc44_loc"], 1637 };
@@ -285,8 +280,14 @@ local myData = {
 
 	},
 	loc49 = {
-		ZoneName = { AtlasCategLocale["ППриятно порой вернуться в знакомую, спокойную гавань."]};
+		ZoneName = { AtlasCategLocale["Приятно порой вернуться в знакомую, спокойную гавань."]};
 		Location = { AtlasCategLocale["loc49_loc"], 1637 };
+		{ _RED.."A) "..AtlasCategLocale["Cartel_pos"], NPC, 900002 };
+
+	},
+	loc50 = {
+		ZoneName = { AtlasCategLocale["Палящее солнце и красные пески Бесплодных земель не очень дружелюбны, но работа есть работа."]};
+		Location = { AtlasCategLocale["loc50_loc"], 1637 };
 		{ _RED.."A) "..AtlasCategLocale["Cartel_pos"], NPC, 900002 };
 
 	},
