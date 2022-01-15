@@ -372,6 +372,7 @@ local function Process_Deprecated()
 		{ "Atlas_Sirus_Categories", "1.16.2" },
 
 		{ "Atlas_Sirus_Cartel", "1.16.2"},
+		{ "Atlas_Sirus_Cartel2", "1.16.2"},
 
 		--most recent (working) versions of known modules at time of release
 		{ "AtlasWorld", "2.4.3" },
