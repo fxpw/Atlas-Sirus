@@ -369,16 +369,16 @@ local function Process_Deprecated()
 		{ "AtlasOutdoorRaids", nil }, --old name for outdoor raids module
 		{ "AtlasBattlegrounds", nil }, --old name for battlegrounds module
 
-		{ "Atlas_Sirus_Categories", "1.16.2" },
+		{ "Atlas_Sirus_Categories", "1.16.3" },
 
-		{ "Atlas_Sirus_Cartel", "1.16.2"},
-		{ "Atlas_Sirus_Cartel2", "1.16.2"},
+		{ "Atlas_Sirus_Cartel", "1.16.3"},
+		-- { "Atlas_Sirus_Cartel2", "1.16.3"},
 
 		--most recent (working) versions of known modules at time of release
 		{ "AtlasWorld", "2.4.3" },
 		{ "AtlasQuest", "4.3.6" }, --updated October 7, 2009
 		{ "AtlasMajorCities", "v1.5a" }, --updated October 7, 2009
-		{ "AtlasLoot", "20.02" },
+		{ "AtlasLoot", "20.11" },
 	};
 
 	--check for outdated modules, build a list of them, then disable them and tell the player.

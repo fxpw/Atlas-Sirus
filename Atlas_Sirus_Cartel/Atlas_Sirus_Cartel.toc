@@ -3,7 +3,7 @@
 ## Title-ruRU: Atlas |r|cFF0099FF[Карта картеля с маунтами]|r
 ## Notes: Sirus_Cartel Maps
 ## Notes-ruRU: Карта картеля с маунтами
-## Version: 1.16.2
+## Version: 1.16.3
 ## Author: fxpw, Днюша, Fallafell
 ## X-Category: Map
 ## RequiredDeps: Atlas
