@@ -375,6 +375,12 @@ local myData2 = {
 		{ _RED.."A) "..AtlasCategLocale["Cartel_pos"], NPC, 900002 };
 
 	},
+	loc60 = {
+		ZoneName = { AtlasCategLocale["locdis60"]};
+		Location = { AtlasCategLocale["loc60_loc"], 1637};
+		{ _RED.."A) "..AtlasCategLocale["Cartel_pos"], NPC, 900002 };
+
+	},
 }
 
 Atlas_RegisterPlugin("Atlas_Sirus_Cartel", myCategory1, myData1);
