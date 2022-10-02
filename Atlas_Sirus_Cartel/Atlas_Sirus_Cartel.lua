@@ -373,6 +373,24 @@ local myData2 = {
 		{ Color33.."A) "..AtlasCategLocale["Cartel_pos"], NPC, 900002 };
 
 	},
+	loc65 = {
+		ZoneName = { AtlasCategLocale["locdis65"]};
+		Location = { AtlasCategLocale["loc19_loc"], 1637};
+		{ Color33.."A) "..AtlasCategLocale["Cartel_pos"], NPC, 900002 };
+
+	},
+	loc66 = {
+		ZoneName = { AtlasCategLocale["locdis66"]};
+		Location = { AtlasCategLocale["loc48_loc"], 1637};
+		{ Color33.."A) "..AtlasCategLocale["Cartel_pos"], NPC, 900002 };
+
+	},
+	loc67 = {
+		ZoneName = { AtlasCategLocale["locdis67"]};
+		Location = { AtlasCategLocale["loc12_loc"], 1637};
+		{ Color33.."A) "..AtlasCategLocale["Cartel_pos"], NPC, 900002 };
+
+	},
 
 }
 
