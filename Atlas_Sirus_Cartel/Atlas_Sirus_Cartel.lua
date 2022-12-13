@@ -269,7 +269,7 @@ local myData2 = {
 
 	},
 	loc47 = {
-		ZoneName = { AtlasCategLocale["locdis42"]};
+		ZoneName = { AtlasCategLocale["locdis47"]};
 		Location = { AtlasCategLocale["loc42_loc"], 1637 };
 		{ Color33.."A) "..AtlasCategLocale["Cartel_pos"], NPC, 900002 };
 
