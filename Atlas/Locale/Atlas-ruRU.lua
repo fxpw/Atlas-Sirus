@@ -1786,5 +1786,9 @@ AtlasLocale = {
 	["GrainOfSandOfLost"] = "Песчинка потерянного времени";
 	["Yellow Dragonflight Chamber"] = "Комната жёлтых драконов";
 	["Towards Murozond"] = "К Мурозонду";
+
+	-- zort 
+	["Zort zone"] = "Пустота Зорта",
+	["Zort"] = "Зорт",
 };
 end 

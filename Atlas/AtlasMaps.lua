@@ -376,8 +376,8 @@ AtlasMaps = {
 		ZoneName = { AtlasLocale["Caverns of Time"]..": "..AtlasLocale["Hyjal Summit"], 3606 };
 		Acronym = AtlasLocale["CoT3"];
 		Location = { AtlasLocale["Tanaris"], 440 };
-		LevelRange = "70";
-		MinLevel = "70";
+		LevelRange = "80";
+		MinLevel = "80";
 		PlayerLimit = "25";
 		Continent = AtlasLocale["Kalimdor"];
 		{ PURP..AtlasLocale["Event"]..": "..AtlasLocale["Battle for Mount Hyjal"] };
@@ -476,7 +476,30 @@ AtlasMaps = {
 --************************************************
 -- Eastern Kingdoms Instances
 --************************************************
-	
+	Zort = {
+		ZoneName = { AtlasLocale["Zort"], 5 };
+		Acronym = AtlasLocale["CoT3"];
+		Location = { AtlasLocale["Tanaris"], 35 };
+		LevelRange = "80";
+		MinLevel = "80";
+		PlayerLimit = "25";
+		Continent = AtlasLocale["Eastern Kingdoms"];
+		{ PURP..AtlasLocale["Event"]..": "..AtlasLocale["Zort"] };
+		-- { ORNG..AtlasLocale["Reputation"]..": "..AtlasLocale["The Scale of the Sands"], FACTION, 990 };
+		-- { BLUE.."A) "..AtlasLocale["Alliance Base"] };
+		{ GREY.."1) "..AtlasLocale["Zort"], NPC, 50702 };
+		-- { BLUE.."B) "..AtlasLocale["Horde Encampment"] };
+		-- { BLUE..INDENT..AtlasLocale["Thrall <Warchief>"], NPC, 17852 };
+		-- { BLUE.."C) "..AtlasLocale["Night Elf Village"] };
+		-- { BLUE..INDENT..AtlasLocale["Tyrande Whisperwind <High Priestess of Elune>"], NPC, 7999 };
+		-- { GREY.."1) "..AtlasLocale["Rage Winterchill"], NPC, 17767 };
+		-- { GREY.."2) "..AtlasLocale["Anetheron"], NPC, 17808 };
+		-- { GREY.."3) "..AtlasLocale["Kaz'rogal"], NPC, 17888 };
+		-- { GREY.."4) "..AtlasLocale["Azgalor"], NPC, 17842 };
+		-- { GREY.."5) "..AtlasLocale["Archimonde"], NPC, 17968 };
+		-- { GREY.."?) "..AtlasLocale["Indormi <Keeper of Ancient Gem Lore>"], NPC, 23437 };
+		-- { GREY..INDENT..AtlasLocale["Tydormu <Keeper of Lost Artifacts>"], NPC, 23381 };
+	};
 	BlackrockDepths = {
 		ZoneName = { AtlasLocale["Blackrock Mountain"]..": "..AtlasLocale["Blackrock Depths"], 1584 };
 		Acronym = AtlasLocale["BRD"];

@@ -1,0 +1,22 @@
+{
+    "Lua.diagnostics.globals": [
+        "GameTooltip",
+        "GameTooltipTextLeft1",
+        "GetCursorPosition",
+        "SlashCmdList",
+        "UIDropDownMenu_Initialize",
+        "UIDropDownMenu_SetSelectedID",
+        "UIDropDownMenu_SetWidth",
+        "FauxScrollFrame_Update",
+        "UISpecialFrames",
+        "UIDropDownMenu_AddButton",
+        "ToggleDropDownMenu",
+        "DEFAULT_CHAT_FRAME",
+        "FauxScrollFrame_GetOffset",
+        "ToggleFrame",
+        "WorldMapFrame",
+        "MouseIsOver",
+        "InterfaceOptions_AddCategory",
+        "InterfaceOptionsFrame_OpenToCategory"
+    ]
+}

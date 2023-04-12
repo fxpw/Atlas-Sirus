@@ -241,12 +241,14 @@ Atlas_DropDownLayouts = {
 			"CFRSerpentshrineCavern",
 		},
 		[ATLAS_DDL_TYPE_INSTANCE_RR_297_303] ={
-			"BronzeSanctuary",
 			"UlduarA",
 			"UlduarB",
 			"UlduarC",
 			"UlduarD",
 			"UlduarE",
+			"BronzeSanctuary",
+			"CoTHyjal",
+			"Zort",
 		},
 	},
 

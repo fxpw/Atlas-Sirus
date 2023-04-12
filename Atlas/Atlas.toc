@@ -8,7 +8,7 @@
 ## Notes-zhCN: 副本地图浏览器
 ## Notes-esES: Navegador de Mapas de Mazmorras
 ## Notes-ruRU: Обозреватель подземелий
-## Version: 1.16.4
+## Version: 1.16.5
 ## X-Date: June, 2010
 ## Author: Dan Gilbert, Adaptation for sirus- Днюша, fxpw, fallafell
 ## Updater: Lothaer
