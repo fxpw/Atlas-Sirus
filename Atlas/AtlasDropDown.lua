@@ -249,6 +249,9 @@ Atlas_DropDownLayouts = {
 			"BronzeSanctuary",
 			"CoTHyjal",
 			"Zort",
+			"BlackTempleBasement",
+			"BlackTempleStart",
+			"BlackTempleTop",
 		},
 	},
 
